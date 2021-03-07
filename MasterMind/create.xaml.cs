@@ -66,8 +66,6 @@ namespace MasterMind
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
-            Console.WriteLine("cos");
             for (int i = 0; i < 4; i++)
             {
                 Button x = (Button)CodeGrid.Children[i];

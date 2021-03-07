@@ -256,7 +256,6 @@ namespace MasterMind
 
         public void ColorMe(object sender, EventArgs e) {
             Button clicked = (Button)sender;
-            Console.WriteLine("Kupso");
             player.Play();
             if (clicked.Background == Brushes.White || clicked.Background != selectedColor)
                 clicked.Background =  selectedColor;   
@@ -295,7 +294,6 @@ namespace MasterMind
                             WinScreen();
                             break;
                         }
-                        Console.WriteLine("Probuje kolorowac");
                         tips[tips_index].Fill = Brushes.Black;
                         tips_index++;
                     }
